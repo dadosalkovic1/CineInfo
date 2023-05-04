@@ -1,0 +1,3 @@
+Move app folder to xampp/htdocs folder and import database in phpmyadmin.
+After that website should work fine.
+THANK YOU FOR DOWNLOADING

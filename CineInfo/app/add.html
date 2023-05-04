@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="add.css">
+    <title>Movie database</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo-div">
+        <p class="logo">CineInfo</p>
+        </div>
+        <div class="bars">
+        <a href="Home.php" class="nav-item" >Home</a>
+        <a href="Movies.php" class="nav-item" >Movies</a>
+      
+        </div>
+        </div>
+
+
+<div class="movie-cont">
+    <div class="movie-info-add">
+    <form action="add.php" method="post" autocomplete="off" enctype="multipart/form-data">
+        <input type="text" placeholder="Title" class="text" name="title" id="">
+        <input type="text" placeholder="Writers" class="text" name="writers"><br>
+        <input type="text" placeholder="Directors" class="text" name="directors"><br>
+        <input type="text" placeholder="Casts" class="text" name="casts"><br>
+        <input type="text" placeholder="Description" class="text" name="desc"><br>
+        <input type="text" placeholder="Trailer URL" class="text" name="trailer"><br>
+        <input type="file" name="image" id="image" >
+        <label class="fileLabel" for="image">Choose image</label>
+        <input type="submit" name="upload" value="UPLOAD" >
+
+    </form>
+</div>
+</div>
+
+
+    
+
+   
+
+<script src="/script.js"></script>
+</body>
+</html>
